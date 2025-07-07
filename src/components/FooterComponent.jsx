@@ -21,7 +21,7 @@ const FooterComponent = ({ language = "es" }) => {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                     {/* Copyright Section */}
                     <div className="text-gray-600 text-sm font-medium">
-                        © {currentYear} Conversor. {language === "es" ? "Todos los derechos reservados." : "All rights reserved."}
+                        © {currentYear} Convertilo. {language === "es" ? "Todos los derechos reservados." : "All rights reserved."}
                     </div>
 
                     {/* Made by Section */}
