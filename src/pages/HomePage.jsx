@@ -21,10 +21,11 @@ const ffmpeg = createFFmpeg({
 })
 
 const outputFormats = {
-    image: ["png", "jpg", "bmp"],
-    audio: ["mp3", "wav", "aac"],
-    video: ["mp4", "webm", "avi"],
+    image: ["jpg", "jpeg", "png", "webp", "bmp", "ico", "tiff"],
+    audio: ["mp3", "aac", "flac", "wav", "ogg", "wma", "m4a"],
+    video: ["mp4", "webm", "avi", "mov", "mkv", "flv", "m4v"]
 }
+
 
 const HomePage = () => {
     const fileInputRef = useRef(null)
