@@ -26,7 +26,7 @@ const outputFormats = {
     video: ["mp4", "webm", "avi"],
 }
 
-const Home = () => {
+const HomePage = () => {
     const fileInputRef = useRef(null)
     const [selectedFiles, setSelectedFiles] = useState([])
     const [errorMsg, setErrorMsg] = useState("")
@@ -290,4 +290,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default HomePage

@@ -1,8 +1,9 @@
 import './App.css'
 import FooterComponent from './components/FooterComponent'
 import NavbarComponent from './components/NavbarComponent'
-import About from './pages/About';
-import Home from './pages/Home'
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+import HomePage from './pages/HomePage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
 
                 <main className='flex-grow'>
                     <Routes>
-                        <Route path='/' element={<Home />} />
-                        <Route path='/nosotros' element={<About/>} />
+                        <Route path='/' element={<HomePage />} />
+                        <Route path='/nosotros' element={<AboutPage />} />
+                        <Route path='/contacto' element={<ContactPage />} />
                     </Routes>
 
                 </main>

@@ -11,7 +11,7 @@ import {
     CloudArrowUpIcon,
 } from "@heroicons/react/24/outline"
 
-const About = () => {
+const AboutPage = () => {
     const features = [
         {
             icon: <BoltIcon className="w-6 h-6" />,
@@ -152,4 +152,4 @@ const About = () => {
     )
 }
 
-export default About
+export default AboutPage
