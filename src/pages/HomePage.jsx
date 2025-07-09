@@ -121,7 +121,7 @@ const HomePage = () => {
                     {/* Header Section */}
                     <div className="text-center mb-8 sm:mb-12">
                         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold ">
-                            Conversor de Archivos <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">Gratis</span> e <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">Inlimitado</span>
+                            Conversor de Archivos <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">Gratis</span> e <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">Ilimitado</span>
                         </h1>
                         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
                             Convertí tus archivos multimedia de forma rápida y sencilla. Soporta imágenes, audio y video con
