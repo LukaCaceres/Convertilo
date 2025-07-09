@@ -206,8 +206,10 @@ const HomePage = () => {
                                                         onChange={(e) => {
                                                             const newFormat = e.target.value
                                                             setSelectedFiles((prev) =>
-                                                                prev.map((file, i) => (i === idx ? { ...file, outputFormat: newFormat } : file)),
-                                                            )
+                                                                prev.map((file, i) => (i === idx ? { ...file, outputFormat: newFormat } : file))
+                                                            );
+                                                            const inputName = f.file.name.replace(/\.[^/.]+$/, "");
+                                                            setConvertedFiles((prev) => prev.filter((conv) => !conv.name.startsWith(inputName)));
                                                         }}
                                                     >
                                                         {outputFormats[f.typeGroup].map((fmt) => (
